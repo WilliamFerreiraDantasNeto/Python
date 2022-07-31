@@ -1,12 +1,7 @@
-# Python
-Python do olá mundo a um programa completo
-
-Aula 1 - print
-
-Aula 2 - string
-
-Aula 3 - Comentarios
-
-Aula 4 - Tipos primitivos
-
-Aula 5 - Operadores matemáticos
+Projetos Python
+Contador
+Condicional dia tarde e noite
+Gerador CPF
+Par impar
+Tamanho do Nome
+Validação CPF
