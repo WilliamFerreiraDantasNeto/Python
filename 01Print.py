@@ -1,4 +1,4 @@
-# Aula 2 - Print
+# Print
 
 print(123456)
 print('Hello', 'Word')  # Separa por espaço por padrão
