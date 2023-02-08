@@ -5,10 +5,10 @@ Bom dia 0-11, Boa tarde 12-17 e boa noite 18-23
 """
 
 
-hora = input('Que horas são: ')
+hora = input('Digite a hora em números inteiros: ')
 try:
     hora = int(hora)
-    if hora <= 11:
+    if hora >=0 and hora <= 11:
         print('Bom dia')
     elif hora <= 17:
         print('Boa tarde')
