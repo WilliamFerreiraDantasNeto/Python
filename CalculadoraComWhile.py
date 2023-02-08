@@ -6,6 +6,8 @@ while condicao:
     op = input('digite o operador (+, -, *, /): ')
     numero_1_valido = None
     numero_2_valido = None
+    num_1_float = 0
+    num_2_float = 0
     try:
         num_1_float = float(num_1)
         numero_1_valido = True
@@ -39,7 +41,6 @@ while condicao:
         print(num_1_float/num_2_float)
     else:
         print('Não é possivel dividir por 0')
-
 
     sair = input('Quer sair? [s]im: ').lower().startswith('s')
     if sair:
