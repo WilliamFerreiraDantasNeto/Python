@@ -7,9 +7,12 @@ menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva
 nome = input('Digite seu nome: ')
 qtd_car = len(nome)
 
-if qtd_car <= 4:
-    print('Seu nome é curto')
-elif qtd_car <= 6:
-    print('Seu nome é normal')
+if qtd_car > 1:
+    if qtd_car <= 4:
+        print('Seu nome é curto')
+    elif qtd_car <= 6:
+        print('Seu nome é normal')
+    else:
+        print('Seu nome é muito grande')
 else:
-    print('Seu nome é muito grande')
+    print('Digite um número com mais de 1 caractere')
