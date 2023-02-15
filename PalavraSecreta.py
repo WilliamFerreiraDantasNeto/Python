@@ -8,6 +8,8 @@ digitada está na palavra secreta.
     - Se a letra digitada não estiver na palavra secreta exiba*.
 Faça a contagem de tentativas do seu usuário.
 """
+import os
+
 palavra_secreta = 'Perfume'
 palavra_tentada = '*******'
 palavra_formatada = ''
@@ -29,4 +31,5 @@ while palavra_secreta != palavra_tentada:
     palavra_tentada = palavra_formatada
     palavra_formatada = ''
     tentativas +=1
+os.system('cls')
 print(f'Parabéns você descobriu a palavra secreta "Perfume" em {tentativas} tentativas')
