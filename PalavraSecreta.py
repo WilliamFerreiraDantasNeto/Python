@@ -8,7 +8,7 @@ digitada está na palavra secreta.
     - Se a letra digitada não estiver na palavra secreta exiba*.
 Faça a contagem de tentativas do seu usuário.
 """
-palavra_secreta = 'Perfume'
+palavra_secreta = 'perfume'
 palavra_tentada = '*******'
 palavra_formatada = ''
 tentativas = 0
